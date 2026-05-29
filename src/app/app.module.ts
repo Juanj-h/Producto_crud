@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProductPageComponent } from './features/products/pages/product-page/product-page.component';
+import { ProductFormComponent } from './features/products/components/product-form/product-form.component';
+import { ProductListComponent } from './features/products/components/product-list/product-list.component';
+import { ProductCardComponent } from './features/products/components/product-card/product-card.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductPageComponent,
+    ProductFormComponent,
+    ProductListComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,
