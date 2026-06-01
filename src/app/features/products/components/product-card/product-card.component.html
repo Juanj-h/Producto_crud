@@ -1,1 +1,12 @@
 <p>product-card works!</p>
+<div class="card">
+
+  <h3>{{ product.nombre }}</h3>
+
+  <p>Precio: $ {{ product.precio }}</p>
+
+  <button (click)="eliminarProducto()">
+    Eliminar
+  </button>
+
+</div>

@@ -1,1 +1,13 @@
 <p>product-page works!</p>
+<div class="container">
+
+  <app-product-form
+    (productCreated)="agregarProducto($event)">
+  </app-product-form>
+
+  <app-product-list
+    [products]="products"
+    (deleteProduct)="eliminarProducto($event)">
+  </app-product-list>
+
+</div>
